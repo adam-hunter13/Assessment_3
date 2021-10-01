@@ -1,0 +1,5 @@
+The web is quite complicated. From my understanding theres really two things that happen when a user starts going to different sites. When a user trys to go to a website the browser will check through its local DNS to see if it recogonizes the URL the user typed in. If it doesn't it will look through the Router DNS for any matches. If nothing is found there it will go to whats called the ISP DNS and do the same thing. If nothing is found there it will search the Root DNS server which if its a real website, it will be found there. 
+
+At any of the before mentioned DNS locations if the website is found, it will provide the browser with the IP address of the website the user typed in. Your browser will then request access to the provided IP address and you will be given access to see website. If the browser had to search the Root DNS this process is very long in computer terms, but still fast for humans. Once a user has reached a website the computer will store that sites IP address in local DNS for future use. The next time a user goes to that site, it will load faster. 
+
+I am typing this line just to make sure GitHub has something to update. 
